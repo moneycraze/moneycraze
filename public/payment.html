@@ -18,17 +18,17 @@
         return vars;
     }
    $( window ).load(function() {
-    var profileId = getUrlVars()["profileId"];
+    var profileId = getUrlVars()["profile"];
     var amount = getUrlVars()["amount"];
     var goalId = getUrlVars()["goalId"];
     dpd.profile.get(profileId, function (result) {
-      console.log(result);
       $("a").prop("href",result.paymentLink + "/"+amount);
         //Update collected amount
+        console.log(goalId);
         dpd.goals.get(goalId, function (goal) {
             var currAmount = goal.collectedAmount;
             console.log(goal);
-            dpd.goals.put(goal.id, {"collectedAmount": currAmount + amount}, function(result, error) {
+            dpd.goals.put(goalId, {"collectedAmount": amount}, function(result, error) {
             });
 
         });

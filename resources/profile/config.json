@@ -40,6 +40,14 @@
 			"required": false,
 			"id": "parentUserId",
 			"order": 4
+		},
+		"linkedUserId": {
+			"name": "linkedUserId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "linkedUserId",
+			"order": 5
 		}
 	}
 }
