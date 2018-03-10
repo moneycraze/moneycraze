@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"emailId": {
+			"name": "emailId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "emailId",
+			"order": 1
+		},
+		"mobileNumber": {
+			"name": "mobileNumber",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "mobileNumber",
+			"order": 2
+		},
+		"relationship": {
+			"name": "relationship",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "relationship",
+			"order": 3
+		}
+	}
+}

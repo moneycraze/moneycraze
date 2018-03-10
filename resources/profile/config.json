@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"dob": {
+			"name": "dob",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "dob",
+			"order": 1
+		},
+		"mobileNumber": {
+			"name": "mobileNumber",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "mobileNumber",
+			"order": 2
+		},
+		"paymentLink": {
+			"name": "paymentLink",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "paymentLink",
+			"order": 3
+		},
+		"parentUserId": {
+			"name": "parentUserId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "parentUserId",
+			"order": 4
+		}
+	}
+}

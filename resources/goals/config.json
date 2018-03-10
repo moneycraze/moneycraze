@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"goalName": {
+			"name": "goalName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "goalName",
+			"order": 0
+		},
+		"deadLine": {
+			"name": "deadLine",
+			"type": "date",
+			"typeLabel": "date",
+			"required": false,
+			"id": "deadLine",
+			"order": 1
+		},
+		"goalDescription": {
+			"name": "goalDescription",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "goalDescription",
+			"order": 2
+		},
+		"targetAmount": {
+			"name": "targetAmount",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "targetAmount",
+			"order": 3
+		},
+		"collectedAmount": {
+			"name": "collectedAmount",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "collectedAmount",
+			"order": 4
+		},
+		"contributors": {
+			"name": "contributors",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "contributors",
+			"order": 5
+		},
+		"profileId": {
+			"name": "profileId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "profileId",
+			"order": 6
+		}
+	}
+}
