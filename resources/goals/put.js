@@ -10,8 +10,11 @@ if(typeof contributors != 'undefined')
                 to      : contributor.emailId,
                 from    :'moneycrazehack24@gmail.com',
                 subject : 'Email from MoneyCraze',
-                html    : '<h1> Hello ' + contributor.name + ' Please click on below link to confirm and contribute </h1> ' + 
-                        '<h2> Amount requested is ' + c.amount + '</h2>' + 
+                html    : '<h3> Hello ' + contributor.name + ', <br><br> I have created a saving goal ' + 
+                            '<br><b> Goal Name: ' + this.goalName + 
+                            '<br> Goal Description: ' + this.goalDescription + 
+                            '<br><br><br><br>Please click on below link to confirm and contribute to halp me achieve my saving goal </h3> ' + 
+                        '<br><h2> Amount requested is £' + c.amount + '</h2>' + 
                         '<href>http://localhost:2403/payment.html?profile=' + this.profileId+ '&goalId=' +this.id +'&amount='+c.amount +'</href>'
              }, function ( err, results ) {
             //   console.log(results);
